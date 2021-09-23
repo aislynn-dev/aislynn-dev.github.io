@@ -1,0 +1,91 @@
+:root {
+    --black: #2f2f2f;
+    --white: #fdfdfd;
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    color: var(--text);
+    background-color: var(--white);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'WindSong', cursive;
+    font-weight: 400;
+    font-size: 64pt;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18pt;
+    margin-top: 36px;
+    margin-bottom: 36%;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--black);
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    margin: 0 6%;
+}
+
+hr:after {
+    content: '§';
+    font-family: 'Amatic SC', cursive;
+    font-size: 72px;
+    position: relative;
+    top: -46px;
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 36px;
+    }
+    p {
+        font-size: 14px;
+    }
+    hr {
+        margin: 0 12%;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+    h1 {
+        font-size: 48px;
+    }
+    p {
+        font-size: 16px;
+    }
+    hr {
+        margin: 0 12%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 640px) {
+    h1 {
+        font-size: 56px;
+    }
+}
+
+@media (max-height: 1000px) {
+    p {
+        margin-bottom: 0;
+    }
+}
