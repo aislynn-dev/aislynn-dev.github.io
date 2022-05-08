@@ -8,6 +8,8 @@ html, body, .container {
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     text-align: center;
     color: var(--text);
     background-color: var(--white);
@@ -28,8 +30,6 @@ h1 {
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
     font-size: 18pt;
     margin-top: 36px;
     margin-bottom: 36%;
