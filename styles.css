@@ -48,6 +48,7 @@ hr:after {
     content: '§';
     font-family: 'Amatic SC', cursive;
     font-size: 72px;
+    color: var(--black);
     position: relative;
     top: -46px;
     display: inline-block;
